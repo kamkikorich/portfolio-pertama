@@ -12,10 +12,11 @@ body {
 }
 
 .container {
-    /* Kod ini mengecilkan 'container' pada halaman hubungi kami */
-    /* Kita akan besarkan ia */
-    /* max-width: 600px; */ 
-    max-width: 900px; /* Lebarkan container untuk 2 kolum */
+    /* Ini adalah kod yang telah dikemas kini:
+      'max-width' dibesarkan kepada 900px 
+      supaya ia muat untuk borang 'hubungi kami'.
+    */
+    max-width: 900px; /* Lebar container untuk 2 kolum */
     width: 100%;
     background-color: #ffffff;
     padding: 30px;
@@ -84,7 +85,7 @@ ul li {
 }
 
 /* =================================
-   KOD BARU UNTUK HALAMAN HUBUNGI KAMI
+   KOD UNTUK HALAMAN HUBUNGI KAMI
    ================================= */
 
 /* Bahagikan kepada 2 kolum */
