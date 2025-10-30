@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        
+        <header>
+            <h1>Hubungi Saya</h1>
+            <p>Isi borang di bawah atau gunakan maklumat di sebelah untuk sebarang pertanyaan.</p>
+        </header>
+        
+        <div class="contact-layout">
+            
+            <div class="contact-info">
+                <h3>Maklumat Perhubungan</h3>
+                <p>
+                    <strong>Alamat:</strong><br>
+                    PERKESO Keningau,<br>
+                    Lot 3-5, Blok A, Fasa 2,<br>
+                    Kompleks Beli Belah Keningau,<br>
+                    89000 Keningau, Sabah.
+                </p>
+                <p>
+                    <strong>Emel:</strong><br>
+                    emel-anda@gmail.com
+                </p>
+                <p>
+                    <strong>Telefon:</strong><br>
+                    +60 12-345 6789
+                </p>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Hantar Mesej</h3>
+                
+                <form action="https://formsubmit.co/emel-anda-di-sini@gmail.com" method="POST">
+                    
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Emel:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="subject">Subjek:</label>
+                    <input type="text" id="subject" name="subject">
+                    
+                    <label for="message">Mesej:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://kamkikorich.github.io/portfolio-pertama/terima-kasih.html">
+
+                    <button type="submit" class="cta-button">Hantar</button>
+                </form>
+            </div>
+            
+        </div> <a href="index.html" class="back-link">Kembali ke Laman Utama</a>
+
+    </div> </body>
+</html>
