@@ -1,4 +1,4 @@
-/* style.css */
+/* style.css (Versi Penuh dan Terkini) */
 body {
     font-family: 'Inter', sans-serif;
     background-color: #f0f2f5;
@@ -12,7 +12,10 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    /* Kod ini mengecilkan 'container' pada halaman hubungi kami */
+    /* Kita akan besarkan ia */
+    /* max-width: 600px; */ 
+    max-width: 900px; /* Lebarkan container untuk 2 kolum */
     width: 100%;
     background-color: #ffffff;
     padding: 30px;
@@ -94,7 +97,7 @@ ul li {
 
 .contact-info,
 .contact-form {
-    flex-basis: 400px; /* Lebar minimum */
+    flex-basis: 300px; /* Lebar minimum */
     flex-grow: 1; /* Benarkan ia membesar */
     text-align: left;
 }
